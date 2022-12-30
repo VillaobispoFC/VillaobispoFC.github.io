@@ -201,6 +201,9 @@ a{
     .nav a{
         font-size: 25px;
     }
+    h3{
+        margin-top: -80px;
+    }
 }
 
 
@@ -209,6 +212,23 @@ a{
         flex-direction: column;
     }
     h2{
+        font-size: 22px;
+    }  
+}
+@media all and (max-width: 428px){
+    h2{
+        font-size: 21px;
+        padding: 0px 0 15px 0;
+    }
+    
+}
+@media all and (max-width: 413px){
+    h2{
         font-size: 20px;
+    }
+}
+@media all and (max-width: 400px){
+    h2{
+        font-size: 19px;
     }
 }
